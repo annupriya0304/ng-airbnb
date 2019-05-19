@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RentalComponent } from './rental/rental.component';
+import { HeaderComponent } from './Common/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RentalComponent
+    RentalComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
